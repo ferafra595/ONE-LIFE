@@ -1,0 +1,23 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Games",
+  "Description": "ONE LIFE - realistic single-player life simulation foundation",
+  "Modules": [
+    {
+      "Name": "OneLife",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    { "Name": "EnhancedInput", "Enabled": true },
+    { "Name": "ChaosVehiclesPlugin", "Enabled": true },
+    { "Name": "ModelingToolsEditorMode", "Enabled": true },
+    { "Name": "StateTree", "Enabled": true },
+    { "Name": "GameplayStateTree", "Enabled": true },
+    { "Name": "MassEntity", "Enabled": true },
+    { "Name": "MassAIBehavior", "Enabled": true },
+    { "Name": "MassCrowd", "Enabled": true }
+  ]
+}
