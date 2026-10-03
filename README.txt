@@ -1,7 +1,17 @@
-ONE LIFE — OPEN WORLD VERTICAL SLICE v2
+ONE LIFE 3D — Vertical Slice v3
 
-Avvio: apri index.html in Chrome/Edge/Firefox.
-Controlli desktop: WASD/frecce = movimento, E = interagisci, F = entra/esci auto.
-Su mobile sono presenti controlli touch.
+Avvio:
+1. Estrai la cartella.
+2. È consigliato avviare un server locale nella cartella (il gioco usa Three.js da CDN):
+   python -m http.server 8080
+3. Apri http://localhost:8080
 
-Questa build cambia il progetto da simulatore a scelte a prototipo open-world giocabile: città esplorabile, personaggio, auto, NPC, edifici, scuola, lavoro, market, centro commerciale, club, telefono, bisogni, tempo lento, denaro e memoria delle decisioni.
+Controlli:
+WASD / frecce = movimento
+SHIFT = corri
+Mouse trascinato = ruota telecamera
+E = interagisci
+F = entra/esci dall'auto
+P = telefono
+
+Questa è una vertical slice 3D single-player. Il multiplayer reale richiede backend/server e non è simulato in questa build.
