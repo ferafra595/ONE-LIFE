@@ -1,17 +1,6 @@
-ONE LIFE 3D — Vertical Slice v3
+ONE LIFE · REAL LIFE v4
 
-Avvio:
-1. Estrai la cartella.
-2. È consigliato avviare un server locale nella cartella (il gioco usa Three.js da CDN):
-   python -m http.server 8080
-3. Apri http://localhost:8080
+Apri index.html con connessione internet attiva (Three.js viene caricato da CDN).
+Controlli: WASD/Frecce movimento, SHIFT corsa/guida veloce, trascina mouse telecamera, E interagisci, F auto, P telefono.
 
-Controlli:
-WASD / frecce = movimento
-SHIFT = corri
-Mouse trascinato = ruota telecamera
-E = interagisci
-F = entra/esci dall'auto
-P = telefono
-
-Questa è una vertical slice 3D single-player. Il multiplayer reale richiede backend/server e non è simulato in questa build.
+Questa build è una vertical slice single-player 3D procedurale: città, ciclo giorno/notte, traffico, personaggi, auto, bisogni, scuola, lavoro, economia, relazioni e memoria eventi.
